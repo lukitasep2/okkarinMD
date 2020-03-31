@@ -1,0 +1,633 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?beoihp');
+    src:  url('../fonts/icomoon.eot?beoihp#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?beoihp') format('truetype'),
+      url('../fonts/icomoon.woff?beoihp') format('woff'),
+      url('../fonts/icomoon.svg?beoihp#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-checkmark:before {
+    content: "\e900";
+  }
+  .icon-check-alt:before {
+    content: "\e901";
+  }
+  .icon-x:before {
+    content: "\e902";
+  }
+  .icon-x-altx-alt:before {
+    content: "\e903";
+  }
+  .icon-cog1:before {
+    content: "\e904";
+  }
+  .icon-heart-fill:before {
+    content: "\e905";
+  }
+  .icon-plus-alt:before {
+    content: "\e906";
+  }
+  .icon-minus:before {
+    content: "\e907";
+  }
+  .icon-minus-alt:before {
+    content: "\e908";
+  }
+  .icon-move:before {
+    content: "\e909";
+  }
+  .icon-move-alt1:before {
+    content: "\e90a";
+  }
+  .icon-move-alt2:before {
+    content: "\e90b";
+  }
+  .icon-equalizer:before {
+    content: "\e90c";
+  }
+  .icon-download:before {
+    content: "\e90d";
+  }
+  .icon-upload:before {
+    content: "\e90e";
+  }
+  .icon-warning:before {
+    content: "\e90f";
+  }
+  .icon-envelope:before {
+    content: "\e910";
+  }
+  .icon-picture:before {
+    content: "\e911";
+  }
+  .icon-heart:before {
+    content: "\e912";
+  }
+  .icon-calendar:before {
+    content: "\e913";
+  }
+  .icon-mouse:before {
+    content: "\e914";
+  }
+  .icon-addressbook:before {
+    content: "\e915";
+  }
+  .icon-atom:before {
+    content: "\e916";
+  }
+  .icon-winsows:before {
+    content: "\e917";
+  }
+  .icon-code:before {
+    content: "\e918";
+  }
+  .icon-home:before {
+    content: "\e919";
+  }
+  .icon-home2:before {
+    content: "\e91a";
+  }
+  .icon-home3:before {
+    content: "\e91b";
+  }
+  .icon-display:before {
+    content: "\e956";
+  }
+  .icon-laptop:before {
+    content: "\e957";
+  }
+  .icon-mobile:before {
+    content: "\e958";
+  }
+  .icon-mobile2:before {
+    content: "\e959";
+  }
+  .icon-tablet:before {
+    content: "\e95a";
+  }
+  .icon-drawer2:before {
+    content: "\e95d";
+  }
+  .icon-bubble:before {
+    content: "\e96b";
+  }
+  .icon-bubbles:before {
+    content: "\e96c";
+  }
+  .icon-bubbles2:before {
+    content: "\e96d";
+  }
+  .icon-bubble2:before {
+    content: "\e96e";
+  }
+  .icon-bubbles3:before {
+    content: "\e96f";
+  }
+  .icon-bubbles4:before {
+    content: "\e970";
+  }
+  .icon-user:before {
+    content: "\e971";
+  }
+  .icon-users:before {
+    content: "\e972";
+  }
+  .icon-user-plus:before {
+    content: "\e973";
+  }
+  .icon-user-minus:before {
+    content: "\e974";
+  }
+  .icon-user-check:before {
+    content: "\e975";
+  }
+  .icon-quotes-left:before {
+    content: "\e977";
+  }
+  .icon-quotes-right:before {
+    content: "\e978";
+  }
+  .icon-hour-glass:before {
+    content: "\e979";
+  }
+  .icon-equalizer2:before {
+    content: "\e993";
+  }
+  .icon-cog:before {
+    content: "\e994";
+  }
+  .icon-cogs:before {
+    content: "\e995";
+  }
+  .icon-hammer:before {
+    content: "\e996";
+  }
+  .icon-trophy:before {
+    content: "\e99e";
+  }
+  .icon-gift:before {
+    content: "\e99f";
+  }
+  .icon-briefcase:before {
+    content: "\e9ae";
+  }
+  .icon-menu:before {
+    content: "\e9bd";
+  }
+  .icon-cloud-check:before {
+    content: "\e9c4";
+  }
+  .icon-circle-up:before {
+    content: "\ea41";
+  }
+  .icon-circle-right:before {
+    content: "\ea42";
+  }
+  .icon-circle-down:before {
+    content: "\ea43";
+  }
+  .icon-circle-left:before {
+    content: "\ea44";
+  }
+  .icon-omega:before {
+    content: "\ea66";
+  }
+  .icon-google2:before {
+    content: "\ea89";
+  }
+  .icon-facebook2:before {
+    content: "\ea91";
+  }
+  .icon-instagram:before {
+    content: "\ea92";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  .icon-libreoffice:before {
+    content: "\eae3";
+  }
+  .icon-facebook:before {
+    content: "\e91c";
+  }
+  .icon-twitter-old:before {
+    content: "\e91d";
+  }
+  .icon-bird:before {
+    content: "\e91e";
+  }
+  .icon-envelope1:before {
+    content: "\e91f";
+  }
+  .icon-envelope2:before {
+    content: "\e920";
+  }
+  .icon-mobile1:before {
+    content: "\e921";
+  }
+  .icon-ipod:before {
+    content: "\e922";
+  }
+  .icon-monitor:before {
+    content: "\e923";
+  }
+  .icon-laptop1:before {
+    content: "\e924";
+  }
+  .icon-hardware:before {
+    content: "\e925";
+  }
+  .icon-zoomout:before {
+    content: "\e926";
+  }
+  .icon-zoomin:before {
+    content: "\e927";
+  }
+  .icon-board:before {
+    content: "\e928";
+  }
+  .icon-pencil:before {
+    content: "\e929";
+  }
+  .icon-pen:before {
+    content: "\e92a";
+  }
+  .icon-user1:before {
+    content: "\e92b";
+  }
+  .icon-user2:before {
+    content: "\e92c";
+  }
+  .icon-user3:before {
+    content: "\e92d";
+  }
+  .icon-cart:before {
+    content: "\e92e";
+  }
+  .icon-arrow-up:before {
+    content: "\e92f";
+  }
+  .icon-arrow-down:before {
+    content: "\e930";
+  }
+  .icon-arrow-left:before {
+    content: "\e931";
+  }
+  .icon-arrow-right:before {
+    content: "\e932";
+  }
+  .icon-arrow-top-right:before {
+    content: "\e933";
+  }
+  .icon-arrow-top-left:before {
+    content: "\e934";
+  }
+  .icon-arrow-bottom-right:before {
+    content: "\e935";
+  }
+  .icon-arrow-bottom-left:before {
+    content: "\e936";
+  }
+  .icon-contract:before {
+    content: "\e937";
+  }
+  .icon-enlarge:before {
+    content: "\e938";
+  }
+  .icon-refresh:before {
+    content: "\e939";
+  }
+  .icon-heart1:before {
+    content: "\e93a";
+  }
+  .icon-star:before {
+    content: "\e93b";
+  }
+  .icon-user4:before {
+    content: "\e93c";
+  }
+  .icon-settings:before {
+    content: "\e93d";
+  }
+  .icon-camera:before {
+    content: "\e93e";
+  }
+  .icon-display1:before {
+    content: "\e93f";
+  }
+  .icon-location:before {
+    content: "\e940";
+  }
+  .icon-eye:before {
+    content: "\e941";
+  }
+  .icon-mail:before {
+    content: "\e942";
+  }
+  .icon-like:before {
+    content: "\e943";
+  }
+  .icon-banknote:before {
+    content: "\e944";
+  }
+  .icon-data:before {
+    content: "\e945";
+  }
+  .icon-music:before {
+    content: "\e946";
+  }
+  .icon-study:before {
+    content: "\e947";
+  }
+  .icon-lab:before {
+    content: "\e948";
+  }
+  .icon-t-shirt:before {
+    content: "\e949";
+  }
+  .icon-fire:before {
+    content: "\e94a";
+  }
+  .icon-clip:before {
+    content: "\e94b";
+  }
+  .icon-shop:before {
+    content: "\e94c";
+  }
+  .icon-wallet:before {
+    content: "\e94d";
+  }
+  .icon-vynil:before {
+    content: "\e94e";
+  }
+  .icon-truck:before {
+    content: "\e94f";
+  }
+  .icon-mail-envelope-open:before {
+    content: "\e950";
+  }
+  .icon-mail-envelope-open1:before {
+    content: "\e951";
+  }
+  .icon-mail-envelope-closed:before {
+    content: "\e952";
+  }
+  .icon-mail-envelope-closed1:before {
+    content: "\e953";
+  }
+  .icon-mail-envelope-open2:before {
+    content: "\e954";
+  }
+  .icon-mail-envelope-open3:before {
+    content: "\e955";
+  }
+  .icon-mail-envelope-open4:before {
+    content: "\e95b";
+  }
+  .icon-mail-envelope-open5:before {
+    content: "\e95c";
+  }
+  .icon-mail-envelope-closed2:before {
+    content: "\e95e";
+  }
+  .icon-mail-envelope-closed3:before {
+    content: "\e95f";
+  }
+  .icon-mail-envelope-open6:before {
+    content: "\e960";
+  }
+  .icon-mail-envelope-open7:before {
+    content: "\e961";
+  }
+  .icon-mail-error:before {
+    content: "\e962";
+  }
+  .icon-mail-error1:before {
+    content: "\e963";
+  }
+  .icon-mail-checked:before {
+    content: "\e964";
+  }
+  .icon-mail-checked1:before {
+    content: "\e965";
+  }
+  .icon-mail-cancel:before {
+    content: "\e966";
+  }
+  .icon-mail-cancel1:before {
+    content: "\e967";
+  }
+  .icon-mail--forbidden:before {
+    content: "\e968";
+  }
+  .icon-mail--forbidden1:before {
+    content: "\e969";
+  }
+  .icon-mail-add:before {
+    content: "\e96a";
+  }
+  .icon-mail-add1:before {
+    content: "\e976";
+  }
+  .icon-mail-remove:before {
+    content: "\e97a";
+  }
+  .icon-mail-remove1:before {
+    content: "\e97b";
+  }
+  .icon-flag:before {
+    content: "\e97c";
+  }
+  .icon-flag1:before {
+    content: "\e97d";
+  }
+  .icon-flag2:before {
+    content: "\e97e";
+  }
+  .icon-flag3:before {
+    content: "\e97f";
+  }
+  .icon-flag4:before {
+    content: "\e980";
+  }
+  .icon-flag5:before {
+    content: "\e981";
+  }
+  .icon-flag6:before {
+    content: "\e982";
+  }
+  .icon-flag7:before {
+    content: "\e983";
+  }
+  .icon-bookmark:before {
+    content: "\e984";
+  }
+  .icon-bookmark1:before {
+    content: "\e985";
+  }
+  .icon-key:before {
+    content: "\e986";
+  }
+  .icon-key1:before {
+    content: "\e987";
+  }
+  .icon-key2:before {
+    content: "\e988";
+  }
+  .icon-folder:before {
+    content: "\e989";
+  }
+  .icon-folder1:before {
+    content: "\e98a";
+  }
+  .icon-folder2:before {
+    content: "\e98b";
+  }
+  .icon-folder3:before {
+    content: "\e98c";
+  }
+  .icon-folders:before {
+    content: "\e98d";
+  }
+  .icon-folders1:before {
+    content: "\e98e";
+  }
+  .icon-box:before {
+    content: "\e98f";
+  }
+  .icon-box1:before {
+    content: "\e990";
+  }
+  .icon-box-bookmark:before {
+    content: "\e991";
+  }
+  .icon-box-bookmark1:before {
+    content: "\e992";
+  }
+  .icon-basketball:before {
+    content: "\e997";
+  }
+  .icon-basketball1:before {
+    content: "\e998";
+  }
+  .icon-baseball:before {
+    content: "\e999";
+  }
+  .icon-baseball1:before {
+    content: "\e99a";
+  }
+  .icon-align-justified:before {
+    content: "\e99b";
+  }
+  .icon-arrow-outline-down:before {
+    content: "\e99c";
+  }
+  .icon-arrow-outline-left:before {
+    content: "\e99d";
+  }
+  .icon-arrow-outline-right:before {
+    content: "\e9a0";
+  }
+  .icon-arrow-outline-up:before {
+    content: "\e9a1";
+  }
+  .icon-arrow-thin-down:before {
+    content: "\e9a2";
+  }
+  .icon-arrow-thin-left:before {
+    content: "\e9a3";
+  }
+  .icon-arrow-thin-right:before {
+    content: "\e9a4";
+  }
+  .icon-arrow-thin-up:before {
+    content: "\e9a5";
+  }
+  .icon-cheveron-down:before {
+    content: "\e9a6";
+  }
+  .icon-cheveron-left:before {
+    content: "\e9a7";
+  }
+  .icon-cheveron-outline-down:before {
+    content: "\e9a8";
+  }
+  .icon-cheveron-outline-left:before {
+    content: "\e9a9";
+  }
+  .icon-cheveron-outline-right:before {
+    content: "\e9aa";
+  }
+  .icon-cheveron-outline-up:before {
+    content: "\e9ab";
+  }
+  .icon-cheveron-right:before {
+    content: "\e9ac";
+  }
+  .icon-cheveron-up:before {
+    content: "\e9ad";
+  }
+  .icon-computer-desktop:before {
+    content: "\e9af";
+  }
+  .icon-computer-laptop:before {
+    content: "\e9b0";
+  }
+  .icon-education:before {
+    content: "\e9b1";
+  }
+  .icon-envelope3:before {
+    content: "\e9b2";
+  }
+  .icon-factory:before {
+    content: "\e9b3";
+  }
+  .icon-home1:before {
+    content: "\e9b4";
+  }
+  .icon-light-bulb:before {
+    content: "\e9b5";
+  }
+  .icon-photo:before {
+    content: "\e9b6";
+  }
+  .icon-portfolio:before {
+    content: "\e9b7";
+  }
+  .icon-send:before {
+    content: "\e9b8";
+  }
+  .icon-facebook1:before {
+    content: "\e9b9";
+    color: #1877f2;
+  }
+  .icon-google:before {
+    content: "\e9ba";
+    color: #4285f4;
+  }
+  .icon-instagram1:before {
+    content: "\e9bb";
+    color: #e4405f;
+  }
+  .icon-twitter1:before {
+    content: "\e9bc";
+    color: #1da1f2;
+  }
