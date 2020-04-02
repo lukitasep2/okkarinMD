@@ -1,4 +1,6 @@
-$color-principal: #000;
-$color-secundario: #fff;
-$cl-menu: #18252c;
-$pepe: pepe;
+$cl-prin: #dea02f;
+$cl-sec: #edb61e;
+$cl-ter: #f08022;
+$cl-cua: #fafafa;
+$deg-prin: linear-gradient(180deg, $cl-sec 0%, $cl-ter 100%);
+$deg-sec: linear-gradient(0deg, $cl-sec 0%, $cl-ter 100%);
